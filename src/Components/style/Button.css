@@ -1,0 +1,44 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    list-style: none;
+} 
+
+.btn-choice {
+    height: 3rem;
+    width: 15rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+
+    margin-bottom: 1%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background:	#D8BFD8;
+}
+
+.btn-choice:hover {
+    background: #8f4b8f;
+    color:#ffffff;
+    transition: .2s;
+}
+
+@media (min-width: 600px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+
+        border-left: 3px solid #c09ec0;
+    }
+
+    .button {
+        height: 3rem;
+        width: 20rem;
+       
+        font-size: 2rem;
+    }
+}

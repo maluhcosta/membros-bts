@@ -1,0 +1,57 @@
+.nome, .J-Hope, .Jimin, .Jin, 
+.Jungkook, .Rap-Monster, .Suga, .V {
+    width: 20rem;
+    height: 30rem;
+
+    align-items: center;
+}
+
+.J-Hope {
+    background-image: url('../../images/jhope.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Jimin {
+    background-image: url('../../images/jimin.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.Jin {
+    background-image: url('../../images/jin.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Jungkook {
+    background-image: url('../../images/jungkook.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Rap-Monster {
+    background-image: url('../../images/rm.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Suga {
+    background-image: url('../../images/suga.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.V {
+    background-image: url('../../images/v.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 600px) {
+    .nome, .J-Hope, .Jimin, .Jin, 
+    .Jungkook, .Rap-Monster, .Suga, .V {
+        width: 30rem;
+        height: 40rem;
+    }
+}
