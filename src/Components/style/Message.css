@@ -1,38 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-*{
-    font-size: 60%;
-    background: #f7e0f7;
-}   
-
-.container-tudo {
-    display: block;
-    justify-content: center;
-    text-align: center;
-}
-
 .titulo {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: underline #8f4b8f;
+    text-decoration: underline #eeaeca;
+    margin: 15px 0 0 0;
 }
 
 .nomes {
-    font-size: 2.3rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 2%;
+    margin: 0 0 20px 0;
 }
 
-@media (min-width: 600px) {
-    .container-figureMessage {
-        display: flex;
-        justify-content: space-around;
-    }
-
+@media (min-width: 700px) {
     .titulo {
-        font-size: 4.5rem;
+        font-size: 1.8rem;
     }
 
     .nomes {
-        font-size: 3rem;
+        font-size: 1.1rem;
     }
 }

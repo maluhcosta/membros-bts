@@ -1,8 +1,6 @@
 import React from 'react';
 import './style/Figure.css';
 
-const Figure = (props) => (
+export const Figure = (props) => (
         <div className={ props.value }></div>
-);
-
-export default Figure;
+)

@@ -1,57 +1,80 @@
+.figure-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .nome, .J-Hope, .Jimin, .Jin, 
 .Jungkook, .Rap-Monster, .Suga, .V {
-    width: 20rem;
-    height: 30rem;
+    width: 10rem;
+    height: 13rem;
 
     align-items: center;
 }
 
+.nome {
+    background-image: url('../../assets/figure/logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .J-Hope {
-    background-image: url('../../images/jhope.jpg');
+    background-image: url('../../assets/figure/jhope.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .Jimin {
-    background-image: url('../../images/jimin.webp');
+    background-image: url('../../assets/figure/jimin.webp');
     background-size: cover;
     background-position: center;
 }
 
 .Jin {
-    background-image: url('../../images/jin.jpg');
+    background-image: url('../../assets/figure/jin.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .Jungkook {
-    background-image: url('../../images/jungkook.jpg');
+    background-image: url('../../assets/figure/jungkook.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .Rap-Monster {
-    background-image: url('../../images/rm.jpg');
+    background-image: url('../../assets/figure/rm.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .Suga {
-    background-image: url('../../images/suga.jpg');
+    background-image: url('../../assets/figure/suga.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .V {
-    background-image: url('../../images/v.jpg');
+    background-image: url('../../assets/figure/v.jpg');
     background-size: cover;
     background-position: center;
 }
 
-@media (min-width: 600px) {
+.J-Hope, .Jimin, .Jin, 
+.Jungkook, .Rap-Monster, .Suga, .V {
+    border-right: 2px solid  #eeaeca;
+    border-bottom: 2px solid  #eeaeca;
+}
+
+@media (min-width: 700px) {
     .nome, .J-Hope, .Jimin, .Jin, 
     .Jungkook, .Rap-Monster, .Suga, .V {
-        width: 30rem;
-        height: 40rem;
+        width: 12rem;
+        height: 16.5rem;
+    }
+
+    .J-Hope, .Jimin, .Jin, 
+    .Jungkook, .Rap-Monster, .Suga, .V {
+        border-right: 3px solid  #eeaeca;
+        border-bottom: 3px solid  #eeaeca;
     }
 }
