@@ -1,13 +1,13 @@
 .titulo {
-    font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
     text-decoration: underline #eeaeca;
     margin: 15px 0 0 0;
 }
 
 .nomes {
-    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     margin: 0 0 20px 0;
 }
 

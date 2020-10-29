@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { Message } from './Message';
-import { Figure } from './Figure';
-import { Button } from './Button';
+import React, { Component } from "react";
+import { Message } from "./Message";
+import { Figure } from "./Figure";
+import { Button } from "./Button";
 
 import "./style/App.css";
 
-import github from '../assets/footer/github.png';
-import linkedin from '../assets/footer/linkedin.png';
-import instagram from '../assets/footer/instagram.png';
+import github from "../assets/footer/github.png";
+import linkedin from "../assets/footer/linkedin.png";
+import instagram from "../assets/footer/instagram.png";
 import coracao from "../assets/footer/coracao.png"
 
 class App extends Component {
   state = {
-    titulo: 'Membros do BTS',
-    nomeDoMembro: 'Selecione um membro para ver sua foto',
-    nomeDaClasse: 'nome',
-    membros: ['J-Hope', 'Jimin', 'Jin', 'Jungkook', 'Rap-Monster', 'Suga', 'V']
+    titulo: "Membros do BTS",
+    nomeDoMembro: "Selecione um membro para ver sua foto",
+    nomeDaClasse: "nome",
+    membros: ["J-Hope", "Jimin", "Jin", "Jungkook", "Rap-Monster", "Suga", "V"]
   };
 
   cliqueNobotao = (membros) => { this.setState({ nomeDaClasse: membros})
@@ -23,14 +23,14 @@ class App extends Component {
 
   render() {
     return (
-      <section className='container-all'>
+      <section className="container-all">
         <div className="text-container">
         <Message titulo={this.state.titulo}/>
         <Message nomes={this.state.nomeDoMembro}/>
         </div>
                         
-        <div className='container-figureMessage'>
-          <ul className='list'>
+        <div className="container-figureMessage">
+          <ul className="list">
             {this.state.membros.map((item, index) => (
               <li key={index}>
                 <Button membros={item} mudaValor={() => this.cliqueNobotao(item)}/>

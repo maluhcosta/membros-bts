@@ -1,16 +1,18 @@
 .btn-choice {
-    height: 2rem;
     width: 12rem;
+    height: 2rem;
 
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    margin-bottom: 2px;
-    cursor: pointer;
-    outline: none;
-    border: none;
     color:#ffffff;
     background: #94bbe9;
     background: linear-gradient(90deg, #94bbe9 0%, #eeaeca 100%);
+
+    border: none;
+    margin-bottom: 2px;
+
+    cursor: pointer;
+    outline: none;
     transition: .5s;
 }
 
@@ -24,9 +26,9 @@
 
 @media (min-width: 700px) {
     .btn-choice {
-        height: 2.1rem;
         width: 14rem;
-       
+        height: 2.1rem;
+      
         font-size: 1.1rem;
         margin-left: 25px;
     }

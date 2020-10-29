@@ -23,9 +23,9 @@ html {
 }
 
 .list {
-    display: block;
-    
+    display: block;   
     justify-content: space-around;
+    
     list-style: none;
     padding: 0;
 }
@@ -40,8 +40,9 @@ html {
 }
 
 .logo-link {
-    height: 30px;
     width: 30px;
+    height: 30px;
+
     padding: 0 10px;
     transition: .3s;
 }
@@ -59,9 +60,8 @@ html {
 }   
 
 .footer-line {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
     padding-right: 5px;
-
     margin: 0;
 }
 
